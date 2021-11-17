@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:5:5-66
+13-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:5:22-63
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:6:5-80
+14-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+15-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:7:5-76
+15-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:7:22-73
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:8:5-76
+16-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:8:22-73
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:9:5-80
+17-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:9:22-78
+18
+19    <application
+19-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:10:5-29:19
+20        android:name="com.myproject.MainApplication"
+20-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:11:7-38
+21        android:allowBackup="false"
+21-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:15:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] C:\Users\Deepak\.gradle\caches\transforms-2\files-2.1\d67cd79abd1ca209502f51c69d23182b\core-1.1.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:13:7-41
+25        android:label="@string/app_name"
+25-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:12:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:14:7-52
+27        android:theme="@style/AppTheme"
+27-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:16:7-38
+28        android:usesCleartextTraffic="true" >
+28-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:17:7-42
+29        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+29-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\debug\AndroidManifest.xml:11:9-86
+29-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\debug\AndroidManifest.xml:11:19-83
+30        <activity
+30-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:18:7-28:18
+31            android:name="com.myproject.MainActivity"
+31-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:19:9-37
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+32-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:21:9-86
+33            android:label="@string/app_name"
+33-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:20:9-41
+34            android:launchMode="singleTask"
+34-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:22:9-40
+35            android:windowSoftInputMode="adjustResize" >
+35-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:23:9-51
+36            <intent-filter>
+36-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:24:9-27:25
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:25:13-65
+37-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:25:21-62
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:26:13-73
+39-->C:\Users\Deepak\Downloads\Resselance\my-project\android\app\src\main\AndroidManifest.xml:26:23-70
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[:react-native-file-viewer] C:\Users\Deepak\Downloads\Resselance\my-project\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+44            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+44-->[:react-native-file-viewer] C:\Users\Deepak\Downloads\Resselance\my-project\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-75
+45            android:authorities="com.myproject.provider"
+45-->[:react-native-file-viewer] C:\Users\Deepak\Downloads\Resselance\my-project\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-60
+46            android:exported="false"
+46-->[:react-native-file-viewer] C:\Users\Deepak\Downloads\Resselance\my-project\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+47            android:grantUriPermissions="true" >
+47-->[:react-native-file-viewer] C:\Users\Deepak\Downloads\Resselance\my-project\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+48            <meta-data
+48-->[:react-native-file-viewer] C:\Users\Deepak\Downloads\Resselance\my-project\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:70
+49                android:name="android.support.FILE_PROVIDER_PATHS"
+49-->[:react-native-file-viewer] C:\Users\Deepak\Downloads\Resselance\my-project\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+50                android:resource="@xml/file_viewer_provider_paths" />
+50-->[:react-native-file-viewer] C:\Users\Deepak\Downloads\Resselance\my-project\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+51        </provider>
+52    </application>
+53
+54</manifest>
